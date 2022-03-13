@@ -1,4 +1,4 @@
-# ops-v1
+# Running ops-v1 locally
 
 Ops contains files required to run all of the services that the projects used that we don't develop ourselves.
 

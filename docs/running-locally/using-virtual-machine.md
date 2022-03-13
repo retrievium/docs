@@ -60,7 +60,8 @@ vagrant up
 >
 > ```sh
 > cd /place/you/cloned/retrievium/iac-v1/vagrant/dev
-vagrant ssh
+>
+> vagrant ssh
 > ```
 
 ```

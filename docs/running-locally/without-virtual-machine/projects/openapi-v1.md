@@ -1,4 +1,4 @@
-# openapi-v1
+# Running openapi-v1 locally
 
 OpenAPI Documentation for api-v1.
 

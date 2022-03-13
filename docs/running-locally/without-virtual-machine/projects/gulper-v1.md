@@ -1,4 +1,4 @@
-# gulper-v1
+# Running gulper-v1 locally
 
 Data ingestion worker to populate the databases.
 

@@ -1,6 +1,17 @@
 site_name: Retrievium Docs
+
+theme:
+
 theme:
   name: material
+  features:
+    - navigation.instant
+  palette:
+    primary: light-blue
+
 markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
+
+plugins:
+  - search

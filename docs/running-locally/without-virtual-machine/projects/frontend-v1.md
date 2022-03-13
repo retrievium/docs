@@ -1,4 +1,4 @@
-# frontend-v1
+# Running frontend-v1 locally
 
 React frontend to interface with api-v1.
 
