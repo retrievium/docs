@@ -69,7 +69,7 @@ cd /vagrant/
 make tmux
 ```
 
-- 9 - Run script to add sample data
+- 10 - Run script to add sample data
 
 Once you have ran the above step, tmux should be running.
 
@@ -82,7 +82,7 @@ cd /vagrant
 make data
 ```
 
-- Visit website in your browser!
+- 11 - Visit website in your browser!
 
 Open up [http://localhost:2015/](http://localhost:2015/) in your web browser, the app _should_ be running, and also should have data!
 
@@ -90,6 +90,33 @@ Open up [http://localhost:2015/](http://localhost:2015/) in your web browser, th
 >
 > There should be data returned.
 
+- 12 - Verify you can make changes to the website, and the website will reflect them.
+
+With your editor of choice, open up the repository. ([VSCode](https://code.visualstudio.com/) is a good choice if you don't have one already)
+
+Head to `frontend-v1/src/components/particles_banner/ParticlesBanner.jsx`, and change the line:
+
+```js
+<Title style={{ fontWeight: "400", textAlign: "center" }}>
+    retrievium
+</Title>
+```
+
+To:
+
+```js
+<Title style={{ fontWeight: "400", textAlign: "center" }}>
+    Hi, my name is YOUR_NAME
+</Title>
+```
+
+After saving the file, the homepage of the website should automatically refresh with your changes.
+
 ## Tips
 
 TODO tips about general usage
+
+- shutting down the virtual machine
+- disconnecting from tmux without shutting down the app
+- attaching back to tmux again
+- destroying the virtual machine
