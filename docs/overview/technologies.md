@@ -1,0 +1,6 @@
+# Technologies
+
+TODO
+
+- react
+- node
