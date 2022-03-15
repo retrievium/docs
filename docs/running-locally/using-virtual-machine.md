@@ -30,6 +30,8 @@ cd /place/you/cloned/retrievium/iac-v1/vagrant/dev
 vagrant up
 ```
 
+If for some reason during this it fails, it might be due to a fluke of ansible, so you can run `vagrant provision` in the same directory again, and it will run the same scripts to download / setup all the software.
+
 - 6 - Run script to start tmux session
 
 > **NOTE:** This command should be ran _inside_ your virtual machine, you can enter it by first heading into the `iac-v1/vagrant/dev` directory, and then running `vagrant ssh`
