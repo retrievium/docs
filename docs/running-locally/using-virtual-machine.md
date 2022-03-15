@@ -10,41 +10,17 @@ There is still some things that need to be installed beforehand, but it is much 
 
 - 2 - [Install Vagrant](https://www.vagrantup.com/downloads)
 
-- 3 - [Install Python 3](https://www.python.org/downloads/)
-
-> **NOTE:** its nice and easy to install Ansible using Pip, hence we ask to install Python.
-
-- 4 - [Install Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible-with-pip)
-
-> **NOTE:** There is multiple ways to install Ansible, but pip is the choice of this tutorial, hence we asked you to install Python 3.
-
-- 5 - [Install GitHub Desktop](https://desktop.github.com/)
+- 3 - [Install GitHub Desktop](https://desktop.github.com/)
 
 > **NOTE:** If you prefer to use `git` via the cli / some other tool to use GitHub, feel free to, but if you don't have a preference or are new to GitHub, I would recommend you install GitHub Desktop.
 
-- 6 - [Clone Repository using GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)
+- 4 - [Clone Repository using GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)
 
 Head to [https://github.com/retrievium/retrievium](https://github.com/retrievium/retrievium) and follow the above instructions to clone the repository to your local machine.
 
 If you can't access the above repo, you will need to reach out to someone to get your account added to the retrievium organization.
 
-- 7 - Install Ansible Galaxy Requirements
-
-Open up a terminal, and run the following command:
-
-> On Linux, use a Terminal of your choice.
->
-> On MacOS, use `Terminal`, it should be in the list of your existing programs.
->
-> On Windows, use `cmd`.
-
-```sh
-cd /place/you/cloned/retrievium/iac-v1/ansible
-
-ansible-galaxy install -r roles/requirements.yml
-```
-
-- 8 - Create virtual machine
+- 5 - Create virtual machine
 
 _This one will likely take a while, but hopefully should require no interaction from you!_
 
@@ -54,7 +30,7 @@ cd /place/you/cloned/retrievium/iac-v1/vagrant/dev
 vagrant up
 ```
 
-- 9 - Run script to start tmux session
+- 6 - Run script to start tmux session
 
 > **NOTE:** This command should be ran _inside_ your virtual machine, you can enter it by first heading into the `iac-v1/vagrant/dev` directory, and then running `vagrant ssh`
 >
@@ -70,7 +46,7 @@ cd /vagrant/
 make tmux
 ```
 
-- 10 - Run script to add sample data
+- 7 - Run script to add sample data
 
 Once you have ran the above step, tmux should be running.
 
@@ -83,7 +59,7 @@ cd /vagrant
 make data
 ```
 
-- 11 - Visit website in your browser!
+- 8 - Visit website in your browser!
 
 Open up [http://localhost:2015/](http://localhost:2015/) in your web browser, the app _should_ be running, and also should have data!
 
@@ -91,7 +67,7 @@ Open up [http://localhost:2015/](http://localhost:2015/) in your web browser, th
 >
 > There should be data returned.
 
-- 12 - Verify you can make changes to the website, and the website will reflect them.
+- 9 - Verify you can make changes to the website, and the website will reflect them.
 
 With your editor of choice, open up the repository. ([VSCode](https://code.visualstudio.com/) is a good choice if you don't have one already)
 
