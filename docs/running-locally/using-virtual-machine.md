@@ -4,6 +4,8 @@ Getting the app running locally isn't trivial, so this is a method that will set
 
 There is still some things that need to be installed beforehand, but it is much less than [the alternative](./without-virtual-machine/getting-started.md).
 
+> **WARNING:** This setup does not currently support Apple M1 processors, due to Virtual Box not running on anything but x86, you will have to follow the other tutorial for now.
+
 ## Setup
 
 - 1 - [Install Virtual Box](https://www.virtualbox.org/wiki/Downloads)
