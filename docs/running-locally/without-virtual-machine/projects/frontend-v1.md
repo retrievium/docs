@@ -34,7 +34,7 @@ cp .env.dist .env
 
 Requirements:
 
-- Running Caddy with `local` as in [`ops-v1`](./ops-v1.md)
+- Running Caddy with `dev` as in [`ops-v1`](./ops-v1.md)
 
 ```sh
 npm run start

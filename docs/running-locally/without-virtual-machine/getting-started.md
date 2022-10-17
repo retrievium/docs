@@ -1,6 +1,6 @@
 # Getting started
 
-> **WARNING:** a lot of work has been put into making ['Using a Virtual Machine'](../using-virtual-machine.md) the best way get the app running on any machine as fast as possible.
+> **WARNING:** a lot of work has been put into making ['Using a Virtual Machine'](../using-virtual-machine.md) the best way get the entire app running on any machine as fast as possible.
 >
 > while you are welcome to follow the bellow instructions, you should probably at least try the other method first!
 

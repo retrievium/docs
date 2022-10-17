@@ -18,7 +18,7 @@ cd ops-v1
 
 ```sh
 cd caddy
-sh download_caddy.sh # downloads the linux build of caddy, for amd64 platforms
+sh download_caddy.sh # downloads caddy via webinstall.dev
 ```
 
 If you are running production and wish Caddy to be able to bind on ports 80 / 443, run the following script:
@@ -27,7 +27,7 @@ If you are running production and wish Caddy to be able to bind on ports 80 / 44
 sh allow_caddy_bind.sh 
 ```
 
-It will allow caddy to listen on ports below 1024 without sudo
+It will (should) allow caddy to listen on ports below 1024 without sudo
 
 ### Populating secrets
 
@@ -53,7 +53,7 @@ sh create_volumes.sh
 
 ```sh
 cd caddy
-sh start_caddy.sh local # run caddy, expecting to run on localhost on port 2015
+sh start_caddy.sh dev  # run caddy, expecting to run on localhost on port 2015
 ```
 
 ### Running core services

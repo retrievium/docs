@@ -1,5 +1,7 @@
 # Using a virtual machine
 
+> **WARNING:** this method is easier than installing without a virtual machine, but if you are just starting out and planning to work on frontend tasks, follow [Just Frontend](./just-frontend.md) instead!
+
 Getting the app running locally isn't trivial, so this is a method that will setup a virtual machine on (pretty much) any machine!
 
 There is still some things that need to be installed beforehand, but it is much less than [the alternative](./without-virtual-machine/getting-started.md).
@@ -38,11 +40,9 @@ If for some reason during this it fails, it might be due to a fluke of ansible, 
 
 > **NOTE:** This command should be ran _inside_ your virtual machine, you can enter it by first heading into the `iac-v1/vagrant/dev` directory, and then running `vagrant ssh`
 >
-> ```sh
-> cd /place/you/cloned/retrievium/iac-v1/vagrant/dev
+> `cd /place/you/cloned/retrievium/iac-v1/vagrant/dev`
 >
-> vagrant ssh
-> ```
+> `vagrant ssh`
 
 ```
 # within VM

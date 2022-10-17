@@ -34,7 +34,7 @@ npm i
 
 Requirements:
 
-- Running Caddy with `local`
+- Running Caddy with `dev`
 
 ```sh
 npm run serve
