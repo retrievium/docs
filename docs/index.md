@@ -4,7 +4,7 @@ Welcome to the Retrievium Docs!
 
 ---
 
-If you are here for the first time to learn how to run the app locally, head to section which explains how to run [just the frontend](./running-locally/just-frontend.md).
+Currently, most of the information on how to run things exists in the [main repo itself](https://github.com/retrievium/retrievium).
 
 ---
 
